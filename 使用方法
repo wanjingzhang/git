@@ -1,0 +1,13 @@
+下载代码方法
+git config user.name "happy"//git config --global 设置全局配置不带--global 为当前项目配置 
+git config user.email "111@sina.com" 
+git config credential.helper store// 配置记住用户密码
+ 
+git init 初始化
+git remote add origin https://github.com/wanjingzhang/taro.git 
+git fetch origin main // 拉取服务器上main分支的内容
+git checkout main 本地切换到main分支
+
+
+git pull 拉取代码
+git push 提交代码
